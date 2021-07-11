@@ -1,0 +1,174 @@
+            *{
+                box-sizing: border-box;
+                flex-wrap: wrap;
+                margin:0;
+            }
+
+            body{
+                background-color:#E5E5E5
+            }
+
+            header{
+                background-color:black;
+                width:100%;
+                height: 100px;
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                color: white;
+                position: relative;
+                max-width: 100%;
+                align-items: center;
+
+            }
+
+            nav ul{
+                display: flex;
+                margin-right: 20px;
+                
+            }
+
+            header ul li{
+                padding: 0.8rem;
+                
+                
+            }
+
+            header div {
+                padding: 10px 0 10px 20px;
+                
+
+            }
+
+            main{ 
+            background-color:white;
+                margin:5rem 2rem;
+                height: 350px;
+                
+                
+                
+            }
+
+
+            .contenedor{
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            height: 460px;
+            }
+
+
+            .lado_derecho{
+                display: flex;
+                flex-direction: column;
+                width:50%;
+                justify-content:center;
+                
+
+            }
+
+
+            .imag_delivery{
+                display: flex;     
+                position: relative;        
+                width:100%;
+                height:350px;
+                bottom:1.5rem;
+                font-weight: bold;
+                font-size:400;
+                
+           
+                
+                
+            }
+
+
+            
+
+        h1{
+                display: flex;
+                position: relative;
+                color: white;
+                padding: 20px 19px;
+                bottom: 350px;
+                font-weight: bold;
+                font-size:400;
+                
+                        
+            }
+
+            h1 span{
+                color: red;
+                font-weight: bold;
+                font-size:400;
+                
+            }
+
+        
+
+            .lado_izquierdo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width:50%;
+                height:350px;
+                
+            
+            }
+
+            h2{
+                display: flex;
+                position: relative;
+                justify-content:center;
+                bottom: 3rem;
+                margin:26px 160px 0 160px;
+                color:red;
+            }
+
+            
+            .lista_pizzas{
+                display: flex;
+                position: relative;  
+                flex-direction:row; 
+                margin:5px;   
+                justify-content:center;
+                justify-content: space-evenly;
+                font-weight: bold;
+                
+            }
+        
+
+        
+            .letra_imagen{
+                display: flex;
+                position: relative;
+                flex-direction:column;
+                line-height: 2rem;
+              
+            }
+
+
+
+            footer {
+                background-color: black;
+                width: 100%;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            footer ul {
+                font-family: Arial, Helvetica, sans-serif;
+                list-style: none;
+                color: white;
+            }
+            footer ul li{
+                padding: 12px;
+            }
+
+
+            footer img{
+                padding: 0 42px 0 0;
+                
+            }
